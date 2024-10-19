@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>signup</title>
+</head>
+<body>
+    <main class="form-signin w-100 m-auto">
+        <form action="/signup" method="post">
+          <img class="mb-4 logo" src="/image/email.svg" alt="logo" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+          <div class="form-floating">
+            <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" name="lname" class="form-control" id="floatingInput" placeholder="lname">
+            <label for="floatingInput">Last Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" name="fname" class="form-control" id="floatingInput" placeholder="fname">
+            <label for="floatingInput">First Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="phone" name="phone" class="form-control" id="floatingPhone" placeholder="Phone">
+            <label for="floatingPhone">Phone</label>
+          </div>
+
+         
+          <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-body-secondary">&copy;2024</p>
+        </form>
+      </main>
+      <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
